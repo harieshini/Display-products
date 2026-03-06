@@ -1,52 +1,102 @@
 body{
-  font-family: Arial, sans-serif;
-  background:#f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+  margin:0;
 }
+
+/* container */
 
 .container{
-  width:500px;
+  max-width:420px;
   margin:auto;
+  padding:20px;
 }
 
-.product-list{
+/* header */
+
+.header{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.header h1{
+  margin:0;
+  color:#2c6aa6;
+}
+
+.header span{
+  color:#2c6aa6;
+  font-size:14px;
+}
+
+/* policy list */
+
+.policy-list{
   display:flex;
   flex-direction:column;
-  gap:20px;
+  gap:15px;
 }
+
+/* card */
 
 .card{
   background:white;
-  border:1px solid #ddd;
-  border-radius:12px;
-  padding:15px;
+  border:1px solid #e2e2e2;
+  padding:16px;
+
+  /* only two corners rounded */
+  border-radius:12px 0px 12px 0px;
 }
 
-/* Top section */
+/* top section */
 
 .card-top{
   display:flex;
   align-items:center;
-  gap:15px;
 }
 
-.product-img{
-  width:60px;
-  height:60px;
-  object-fit:cover;
-  border-radius:8px;
+/* icons */
+
+.icon{
+  font-size:28px;
+  color:#7aa6c8;
+  margin-right:12px;
 }
 
-.product-info h3{
+/* policy text */
+
+.policy-info h3{
   margin:0;
-  font-size:18px;
+  color:#2c6aa6;
+  font-size:16px;
 }
 
-.policy-id{
-  color:gray;
+.number{
+  margin:2px 0;
+  font-weight:600;
+}
+
+.effective{
+  font-size:12px;
+  color:#666;
+}
+
+/* arrow */
+
+.arrow{
+  margin-left:auto;
+  color:#999;
+}
+
+/* message */
+
+.message{
+  margin-top:12px;
   font-size:14px;
+  color:#444;
 }
 
-/* Bottom section */
+/* bottom payment area */
 
 .card-bottom{
   display:flex;
@@ -55,17 +105,60 @@ body{
   margin-top:15px;
 }
 
-.price{
-  font-size:22px;
-  font-weight:bold;
-  color:#2a7db8;
+/* amount */
+
+.card-bottom h2{
+  margin:0;
+  color:#2c6aa6;
 }
 
-.buy-btn{
-  background:#2f73f0;
-  color:white;
+.due{
+  font-size:13px;
+  color:#666;
+}
+
+/* button */
+
+button{
+  background:#e8752e;
   border:none;
-  padding:10px 20px;
+  color:white;
+  padding:10px 18px;
   border-radius:6px;
+  font-weight:600;
   cursor:pointer;
+}
+
+button:hover{
+  background:#d9641f;
+}
+
+/* bottom link */
+
+.bottom-link{
+  margin-top:25px;
+  background:#e7eef3;
+  border-radius:30px;
+  padding:12px 16px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.plus{
+  background:#e8752e;
+  color:white;
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:18px;
+}
+
+.link{
+  color:#2c6aa6;
+  font-weight:600;
+  margin:0;
 }
