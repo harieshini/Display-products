@@ -43,9 +43,8 @@ body{
   background:white;
   border:1px solid #e2e2e2;
   padding:16px;
-
- 
   border-radius:20px 0px 20px 0px;
+  cursor:pointer;
 }
 
 
@@ -161,4 +160,12 @@ button:hover{
   color:#2c6aa6;
   font-weight:600;
   margin:0;
+}
+
+.selected-policy{
+  margin-top:20px;
+  padding:15px;
+  background:white;
+  border-radius:10px;
+  border:1px solid #ddd;
 }
