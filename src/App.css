@@ -4,7 +4,7 @@ body{
   margin:0;
 }
 
-/* container */
+
 
 .container{
   max-width:420px;
@@ -12,7 +12,7 @@ body{
   padding:20px;
 }
 
-/* header */
+
 
 .header{
   text-align:center;
@@ -29,7 +29,7 @@ body{
   font-size:14px;
 }
 
-/* policy list */
+
 
 .policy-list{
   display:flex;
@@ -37,25 +37,25 @@ body{
   gap:15px;
 }
 
-/* card */
+
 
 .card{
   background:white;
   border:1px solid #e2e2e2;
   padding:16px;
 
-  /* stronger corner rounding */
+ 
   border-radius:20px 0px 20px 0px;
 }
 
-/* top section */
+
 
 .card-top{
   display:flex;
   align-items:center;
 }
 
-/* icons */
+
 
 .icon{
   font-size:28px;
@@ -63,7 +63,7 @@ body{
   margin-right:12px;
 }
 
-/* policy text */
+
 
 .policy-info h3{
   margin:0;
@@ -81,14 +81,14 @@ body{
   color:#666;
 }
 
-/* arrow */
+
 
 .arrow{
   margin-left:auto;
   color:#999;
 }
 
-/* message */
+
 
 .message{
   margin-top:12px;
@@ -96,7 +96,7 @@ body{
   color:#444;
 }
 
-/* bottom payment area */
+
 
 .card-bottom{
   display:flex;
@@ -105,7 +105,7 @@ body{
   margin-top:15px;
 }
 
-/* amount */
+
 
 .card-bottom h2{
   margin:0;
@@ -117,7 +117,7 @@ body{
   color:#666;
 }
 
-/* button */
+
 
 button{
   background:#e8752e;
@@ -133,7 +133,7 @@ button:hover{
   background:#d9641f;
 }
 
-/* bottom link */
+
 
 .bottom-link{
   margin-top:25px;

@@ -86,14 +86,14 @@ function PolicyCard({ policy }) {
 
       </div>
 
-      {/* AUTOMATIC PAYMENT */}
+      
       {policy.paymentType === "auto" && (
         <p className="message">
           {policy.message}
         </p>
       )}
 
-      {/* MANUAL PAYMENT */}
+      
       {policy.paymentType === "manual" && (
         <div className="card-bottom">
 
